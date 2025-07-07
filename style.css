@@ -7,7 +7,6 @@ html, body {
   body {
     min-height: 100vh;
     min-width: 100vw;
-    /* พื้นหลังไล่สี HSL */
     background: linear-gradient(135deg, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
     display: flex;
     align-items: center;
