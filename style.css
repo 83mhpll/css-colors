@@ -1,61 +1,61 @@
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    min-height: 100vh;
-    min-width: 100vw;
-    background: linear-gradient(135deg, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .center-box {
-    background: hsla(0, 50%, 100%, 0.5);
-    border-radius: 6px;
-    padding: 28px 20px;
-    max-width: 600px;
-    width: 90vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    border: none;
-  }
-  
-  .center-box h2 {
-    margin-top: 0;
-    margin-bottom: 18px;
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  
-  .center-box p {
-    margin: 0;
-    font-size: 1rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: left;
-    line-height: 1.2;
-    max-width: 540px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
-  @media (max-width: 650px) {
-    .center-box {
-      padding: 18px 6vw;
-      max-width: 98vw;
-    }
-    .center-box h2 {
-      font-size: 1.2rem;
-    }
-    .center-box p {
-      font-size: 0.95rem;
-    }
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: linear-gradient(135deg, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-box {
+  background: hsla(0, 50%, 100%, 0.5);
+  border-radius: 6px;
+  padding: 28px 20px;
+  max-width: 600px;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border: none;
+}
+
+.center-box h2 {
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.center-box p {
+  margin: 0;
+  font-size: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+  line-height: 1.2;
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 650px) {
+  .center-box {
+    padding: 18px 6vw;
+    max-width: 98vw;
   }
+  .center-box h2 {
+    font-size: 1.2rem;
+  }
+  .center-box p {
+    font-size: 0.95rem;
+  }
+}
